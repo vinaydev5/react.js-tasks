@@ -1,23 +1,8 @@
-import ComponentName from "./bulb"
-
-// function App(){
-//    return(
-//     <Card/>
-
-//    );
-
-
-
-// }
-
-
-
-
-
+import CardTodo from "./components/28-08-2024/card"
 const App =() =>{
    return(
     <div>
-    <ComponentName/>
+    <CardTodo/>
     </div>
    )
 
