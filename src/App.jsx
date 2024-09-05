@@ -1,15 +1,12 @@
-import CardTodo from "./components/28-08-2024/card"
-const App =() =>{
-   return(
+import React from 'react'
+import RecipeData from './recipes/recipe'
+
+const App = () => {
+  return (
     <div>
-    <CardTodo/>
+      <RecipeData/>
     </div>
-   )
-
-
+  )
 }
 
 export default App
-
-
-
