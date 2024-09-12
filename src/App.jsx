@@ -1,30 +1,14 @@
-import ComponentName from "./bulb"
+import React from 'react'
+import Search from './table/table'
 
-// function App(){
-//    return(
-//     <Card/>
-
-//    );
-
-
-
-// }
-
-
-
-
-
-const App =() =>{
-   return(
+const BestExample = () => {
+  return (
     <div>
-    <ComponentName/>
+      <Search></Search>
     </div>
-   )
-
-
+  )
 }
 
-export default App
-
+export default BestExample
 
 
