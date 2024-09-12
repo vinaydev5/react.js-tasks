@@ -1,12 +1,14 @@
 import React from 'react'
-import RecipeData from './recipes/recipe'
+import Search from './table/table'
 
-const App = () => {
+const BestExample = () => {
   return (
     <div>
-      <RecipeData/>
+      <Search></Search>
     </div>
   )
 }
 
-export default App
+export default BestExample
+
+

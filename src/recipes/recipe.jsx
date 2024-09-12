@@ -1,7 +1,8 @@
 import axios from "axios";
 import { Component } from "react";
 import Loaders from "../components/loaders/loader";
-import CardDisplay from "../components/loaders/cardcomponent";
+import CardDisplay from "../components/loaders/cardcomponent"
+
 
 class RecipeData extends Component {
     state = {
