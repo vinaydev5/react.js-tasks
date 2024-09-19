@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import BasicExample from "../table/table"
+import Search from "../table/table"
+import CustomizeTodos from "../components/12-09-24task/todos"
 
 
 
@@ -9,7 +10,8 @@ const CustomNavigation =() =>{
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<BasicExample/>}/>
+                    <Route path="/" element={<Search/>}/>
+                    <Route path="todos" element={<CustomizeTodos/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
