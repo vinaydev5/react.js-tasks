@@ -9,7 +9,7 @@ const CardTodo = ()=>{
 
     const AddHandler=()=>{
         const currentLength=data.length
-        const newObj={id:currentLength+1,name:"rajesh",role:"angler"}
+        const newObj={id:currentLength+1,name:"vinay",role:"react"}
         setData([...data,newObj])
     }
 
